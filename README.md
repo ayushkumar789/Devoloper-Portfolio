@@ -1,12 +1,10 @@
-Here's your **README.md** file for your GitHub repository:  
 
-```md
 🚀 Ayush Kumar Panigrahi - Developer Portfolio
 
-This is my **personal portfolio website**, designed and developed by me using **Next.js 14, TypeScript, and Tailwind CSS**. It showcases my **skills, projects, experience, and blog**, with a modern and interactive UI.
+This is my personal portfolio website, designed and developed by me using Next.js 14, TypeScript, and Tailwind CSS. It showcases my skills, projects, experience, and blog, with a modern and interactive UI.
 
-## 🌟 Live Preview  
-🔗 **[ayushkumarpanigrahi.info](https://ayushkumarpanigrahi.info/)**  
+🌟 Live Preview  
+🔗 [ayushkumarpanigrahi.info](https://ayushkumarpanigrahi.info/)  
 
 ---
 
@@ -16,17 +14,17 @@ This is my **personal portfolio website**, designed and developed by me using **
 ✅ Smooth animations and transitions 🎨  
 ✅ Portfolio section with filterable projects 🔥  
 ✅ Contact form integration 📩  
-✅ Hosted on **Vercel** with a custom domain  
+✅ Hosted on Vercel with a custom domain  
 
 ---
 
 🛠️ Technologies Used  
-- **Next.js 14** 🚀 (App Router)  
-- **TypeScript** 🔹  
-- **React** ⚛️  
-- **Tailwind CSS** 🎨  
-- **Framer Motion** for animations ✨  
-- **Vercel** for deployment 🌎  
+- Next.js 14 🚀 (App Router)  
+- TypeScript 🔹  
+- React ⚛️  
+- Tailwind CSS 🎨  
+- Framer Motion for animations ✨  
+- Vercel for deployment 🌎  
 
 ---
 
@@ -41,7 +39,7 @@ cd developer-portfolio
 npm install
 
 
-3️⃣ **Run the development server:**  
+3️⃣ Run the development server:  
 npm run dev
 
 
@@ -51,10 +49,10 @@ http://localhost:3000
 ---
 
 🚀 Deployment  
-This project is hosted on **Vercel**. To deploy your own version:  
-1. Push your code to a **GitHub repository**.  
-2. Go to **[Vercel](https://vercel.com/)** → Import your GitHub repo.  
-3. Click **Deploy**, and your site will be live!
+This project is hosted on Vercel. To deploy your own version:  
+1. Push your code to a GitHub repository.  
+2. Go to [Vercel](https://vercel.com/) → Import your GitHub repo.  
+3. Click Deploy, and your site will be live!
 
 ---
 
