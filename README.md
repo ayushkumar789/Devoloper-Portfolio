@@ -1,7 +1,7 @@
 Here's your **README.md** file for your GitHub repository:  
 
 ```md
-# 🚀 Ayush Kumar Panigrahi - Developer Portfolio
+🚀 Ayush Kumar Panigrahi - Developer Portfolio
 
 This is my **personal portfolio website**, designed and developed by me using **Next.js 14, TypeScript, and Tailwind CSS**. It showcases my **skills, projects, experience, and blog**, with a modern and interactive UI.
 
@@ -10,7 +10,7 @@ This is my **personal portfolio website**, designed and developed by me using **
 
 ---
 
-## 📌 Features  
+📌 Features  
 ✅ Fully responsive and optimized for all devices 📱💻  
 ✅ Dark / Light mode toggle 🌗  
 ✅ Smooth animations and transitions 🎨  
@@ -20,7 +20,7 @@ This is my **personal portfolio website**, designed and developed by me using **
 
 ---
 
-## 🛠️ Technologies Used  
+🛠️ Technologies Used  
 - **Next.js 14** 🚀 (App Router)  
 - **TypeScript** 🔹  
 - **React** ⚛️  
@@ -30,32 +30,27 @@ This is my **personal portfolio website**, designed and developed by me using **
 
 ---
 
-## 🔧 Installation & Setup  
+🔧 Installation & Setup  
 
-1️⃣ **Clone the repository:**  
-```sh
+1️⃣ Clone the repository:  
 git clone https://github.com/YOUR_USERNAME/developer-portfolio.git
 cd developer-portfolio
-```
 
-2️⃣ **Install dependencies:**  
-```sh
+
+2️⃣ Install dependencies:
 npm install
-```
+
 
 3️⃣ **Run the development server:**  
-```sh
 npm run dev
-```
 
-4️⃣ **Open in browser:**  
-```
+
+4️⃣ Open in browser:
 http://localhost:3000
-```
 
 ---
 
-## 🚀 Deployment  
+🚀 Deployment  
 This project is hosted on **Vercel**. To deploy your own version:  
 1. Push your code to a **GitHub repository**.  
 2. Go to **[Vercel](https://vercel.com/)** → Import your GitHub repo.  
@@ -63,8 +58,8 @@ This project is hosted on **Vercel**. To deploy your own version:
 
 ---
 
-## 📬 Contact Me  
+📬 Contact Me  
 Feel free to explore my work and reach out via the contact form on my website! 🚀  
-```
 
-This README will make your repository look **professional and informative**. Let me know if you need any modifications! 🚀
+
+This README will make your repository look professional and informative. Let me know if you need any modifications! 🚀
