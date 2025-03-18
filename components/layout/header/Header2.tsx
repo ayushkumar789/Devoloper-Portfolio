@@ -16,7 +16,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 							<div className="container py-3 px-4">
 								<Link className="navbar-brand d-flex main-logo align-items-center" href="/index-2">
 									<img src="assets/imgs/home-page-2/template/favicon.svg" alt="zelio" />
-									<span className="fs-4 ms-2">James.dev</span>
+									<span className="fs-4 ms-2">Ayush.dev</span>
 								</Link>
 								<div className="d-none d-lg-flex">
 									<div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,10 +31,10 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 												<Link className="nav-link" href="#services">Services</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" href="#portfolio">Portfolio</Link>
+												<Link className="nav-link" href="#projects">Projects</Link>
 											</li>
 											<li className="nav-item">
-												<Link className="nav-link" href="#blog">Blog</Link>
+												<Link className="nav-link" href="#experience">Experience</Link>
 											</li>
 											<li className="nav-item">
 												<Link className="nav-link" href="#contact">Contact</Link>

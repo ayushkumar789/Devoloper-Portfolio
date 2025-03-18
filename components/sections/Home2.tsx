@@ -14,9 +14,17 @@ export default function Home2() {
 								<div className="col-lg-5 ps-lg-5 text-lg-start text-center">
 									<div className="position-relative mb-lg-0 mb-5">
 										<img src="assets/imgs/home-page-2/hero-1/people.png" alt="zelio" />
-										<div className="position-absolute end-0 top-100 translate-middle-y icon-decorate">
+										<div
+											className="position-absolute end-0 icon-decorate"
+											style={{
+												top: '85%',  // Adjust this value to move it up/down
+												transform: 'translateY(-50%)',
+												zIndex: 10
+											}}
+										>
 											<img src="assets/imgs/home-page-2/hero-1/icon.svg" alt="zelio" />
 										</div>
+
 									</div>
 								</div>
 								<div className="col-lg-6 mx-lg-auto col-md-12">

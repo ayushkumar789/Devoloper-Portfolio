@@ -32,31 +32,31 @@ export default function Skills2() {
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">NodeJS</span>
+																<span className="tool-tip">Java</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-1.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">NextJS</span>
+																<span className="tool-tip">Python</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Firebase</span>
+																<span className="tool-tip">C</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-3.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">MongoDB</span>
+																<span className="tool-tip">SQL</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-6.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">React</span>
+																<span className="tool-tip">JavaScript</span>
 															</li>
 														</ul>
 													</Marquee>
@@ -69,25 +69,31 @@ export default function Skills2() {
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-7.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">VueJS</span>
+																<span className="tool-tip">HTML/CSS</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-8.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Angular</span>
+																<span className="tool-tip">Node.js</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-9.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Laravel</span>
+																<span className="tool-tip">Flutter</span>
 															</li>
 															<li className="carouselTicker__item mt-6">
 																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
 																	<img src="assets/imgs/home-page-2/hero-1/icon-5.svg" alt="brand" />
 																</Link>
-																<span className="tool-tip">Tailwind</span>
+																<span className="tool-tip">React</span>
+															</li>
+															<li className="carouselTicker__item mt-6">
+																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
+																	<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
+																</Link>
+																<span className="tool-tip">Git</span>
 															</li>
 														</ul>
 													</Marquee>
@@ -101,26 +107,26 @@ export default function Skills2() {
 														<ul className="ps-3 d-flex flex-column justify-content-between h-100 position-relative">
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-dark text-nowrap mb-0">Front-End:</p>
-																	<span className="text-300">HTML, CSS, JavaScript, React, Angular</span>
+																	<p className="text-dark text-nowrap mb-0">Languages:</p>
+																	<span className="text-300">Java, Python, C, SQL (MySQL), JavaScript, HTML/CSS</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-dark text-nowrap mb-0">Back-End:</p>
-																	<span className="text-300">Node.js, Express, Python, Django</span>
+																	<p className="text-dark text-nowrap mb-0">Frameworks:</p>
+																	<span className="text-300">Node.js (Beginner), Flutter, React</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-dark text-nowrap mb-0">Databases:</p>
-																	<span className="text-300">MySQL, PostgreSQL, MongoDB</span>
+																	<p className="text-dark text-nowrap mb-0">Developer Tools:</p>
+																	<span className="text-300">Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, WebStorm, Spyder, Android Studio, R Studio, Arduino IDE</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-dark text-nowrap mb-0">Tools &amp; Platforms:</p>
-																	<span className="text-300">Git, Docker, AWS, Heroku</span>
+																	<p className="text-dark text-nowrap mb-0">Design Tools:</p>
+																	<span className="text-300">Photoshop, Figma, Illustrator, After Effects, Alight Motion</span>
 																</div>
 															</li>
 															<li className="mb-3">
@@ -137,24 +143,26 @@ export default function Skills2() {
 									</div>
 								</div>
 							</div>
-						</div>
-						<div className="position-absolute d-none d-md-block decorate">
-							<div className="rotateme">
-								<div className="circle-1-1" />
-								<div className="circle-1-2 position-absolute top-50 start-50 translate-middle">
-									<svg className="mb-5 position-absolute bottom-0 start-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 9 9" fill="none">
-										<circle cx="4.5" cy="4.5" r="4.5" fill="#636366" />
-									</svg>
-								</div>
-								<div className="circle-1-3 position-absolute top-50 start-50 translate-middle ">
-									<svg className="mb-3 position-absolute bottom-0 end-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 9 9" fill="none">
-										<circle cx="4.5" cy="4.5" r="4.5" fill="#636366" />
-									</svg>
+							<div className="position-absolute d-none d-md-block decorate">
+								<div className="rotateme">
+									<div className="circle-1-1" />
+									<div className="circle-1-2 position-absolute top-50 start-50 translate-middle">
+										<svg className="mb-5 position-absolute bottom-0 start-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 9 9" fill="none">
+											<circle cx="4.5" cy="4.5" r="4.5" fill="#636366" />
+										</svg>
+									</div>
+									<div className="circle-1-3 position-absolute top-50 start-50 translate-middle ">
+										<svg className="mb-3 position-absolute bottom-0 end-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 9 9" fill="none">
+											<circle cx="4.5" cy="4.5" r="4.5" fill="#636366" />
+										</svg>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
+				<br/>
+				<br/>
 			</section>
 
 		</>
