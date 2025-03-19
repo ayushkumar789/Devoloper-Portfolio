@@ -1,0 +1,16 @@
+
+.scrollable-certifications {
+    max-height: 250px; /* Set max height */
+    overflow-y: auto; /* Enable vertical scrolling */
+    padding-right: 10px; /* Space for scrollbar */
+}
+
+/* Style the scrollbar */
+.scrollable-certifications::-webkit-scrollbar {
+    width: 5px;
+}
+
+.scrollable-certifications::-webkit-scrollbar-thumb {
+    background: #A8FF53; /* Green scrollbar */
+    border-radius: 10px;
+}
