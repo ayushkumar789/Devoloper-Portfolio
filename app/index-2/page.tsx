@@ -8,6 +8,7 @@ import Projects2 from "@/components/sections/Projects2"
 import Service2 from "@/components/sections/Service2"
 import Skills2 from "@/components/sections/Skills2"
 import Static2 from "@/components/sections/Static2"
+import { Analytics } from "@vercel/analytics/react"
 export default function HomePage2() {
 
 	return (
@@ -24,6 +25,7 @@ export default function HomePage2() {
 
 				<Contact2 />
 			</Layout>
+			<Analytics />
 		</>
 	)
 }
