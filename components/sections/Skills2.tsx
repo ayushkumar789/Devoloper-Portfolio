@@ -25,81 +25,56 @@ export default function Skills2() {
 										<div className="col-lg-6">
 											<div className="row">
 												<div className="col-lg-10 col-md-9 mx-auto overflow-hidden">
-													{/* Carausel Scroll */}
+													{/* ✅ First Marquee (Frontend & Web Technologies) */}
 													<Marquee className="carouselTicker carouselTicker-right position-relative z-1" direction="right">
 														<ul className="carouselTicker__list m-0">
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">Java</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-1.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">Python</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">C</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-3.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">SQL</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-6.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">JavaScript</span>
-															</li>
+															{[
+																{ src: "html.png", name: "HTML" },
+																{ src: "css.png", name: "CSS" },
+																{ src: "js.png", name: "JavaScript" },
+																{ src: "react.png", name: "React" },
+																{ src: "bootstrap.png", name: "Bootstrap" }
+															].map((tech, index) => (
+																<li key={index} className="carouselTicker__item mt-6">
+																	<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
+																		<img src={`assets/imgs/home-page-2/programming/${tech.src}`} alt={tech.name}
+																			 style={{ width: "60px", height: "60px", objectFit: "contain" }} />
+																	</Link>
+																	<span className="tool-tip">{tech.name}</span>
+																</li>
+															))}
 														</ul>
 													</Marquee>
 												</div>
+
 												<div className="col-lg-8 col-md-7 col-10 mx-auto overflow-hidden">
-													{/* Carausel Scroll */}
+													{/* ✅ Second Marquee (Backend, Databases, and Tools) */}
 													<Marquee className="carouselTicker carouselTicker-left position-relative z-1">
 														<ul className="carouselTicker__list m-0 ">
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-7.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">HTML/CSS</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-8.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">Node.js</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-9.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">Flutter</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-5.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">React</span>
-															</li>
-															<li className="carouselTicker__item mt-6">
-																<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
-																	<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
-																</Link>
-																<span className="tool-tip">Git</span>
-															</li>
+															{[
+																{ src: "python.png", name: "Python" },
+																{ src: "java.png", name: "Java" },
+																{ src: "mysql.png", name: "MySQL" },
+																{ src: "nodejs.png", name: "Node.js" },
+																{ src: "mongodb.png", name: "MongoDB" },
+																{ src: "firebase.png", name: "Firebase" },
+																{ src: "visual-basic.png", name: "Visual Studio" }
+															].map((tech, index) => (
+																<li key={index} className="carouselTicker__item mt-6">
+																	<Link href="#" className="brand-logo icon_80 icon-shape rounded-3">
+																		<img src={`assets/imgs/home-page-2/programming/${tech.src}`} alt={tech.name}
+																			 style={{ width: "60px", height: "60px", objectFit: "contain" }} />
+																	</Link>
+																	<span className="tool-tip">{tech.name}</span>
+																</li>
+															))}
 														</ul>
 													</Marquee>
 												</div>
 											</div>
 										</div>
+
+										{/* ✅ Skills List (Unchanged) */}
 										<div className="col-lg-6 border-start-md mt-lg-0 mt-5">
 											<div className="row">
 												<div className="col-md-10 mx-auto">
@@ -114,25 +89,31 @@ export default function Skills2() {
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Frameworks:</p>
-																	<span className="text-300">Node.js (Beginner), Flutter, React</span>
+																	<span className="text-300">Node.js (Beginner), Flutter, React, Bootstrap</span>
+																</div>
+															</li>
+															<li className="mb-3">
+																<div className="d-flex flex-column flex-md-row gap-2">
+																	<p className="text-dark text-nowrap mb-0">Databases:</p>
+																	<span className="text-300">MySQL, MongoDB, Firebase</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Developer Tools:</p>
-																	<span className="text-300">Git, Docker, VS Code, Visual Studio, PyCharm, IntelliJ, Eclipse, WebStorm, Spyder, Android Studio, R Studio, Arduino IDE</span>
+																	<span className="text-300">Git, Docker, VS Code, IntelliJ, WebStorm, Eclipse</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
 																	<p className="text-dark text-nowrap mb-0">Design Tools:</p>
-																	<span className="text-300">Photoshop, Figma, Illustrator, After Effects, Alight Motion</span>
+																	<span className="text-300">Photoshop, Figma, Illustrator, After Effects</span>
 																</div>
 															</li>
 															<li className="mb-3">
 																<div className="d-flex flex-column flex-md-row gap-2">
-																	<p className="text-dark text-nowrap mb-0">Others:</p>
-																	<span className="text-300">RESTful APIs, GraphQL, Agile Methodologies</span>
+																	<p className="text-dark text-nowrap mb-0">Other Skills:</p>
+																	<span className="text-300">REST APIs, GraphQL, Agile Development</span>
 																</div>
 															</li>
 														</ul>
@@ -140,30 +121,15 @@ export default function Skills2() {
 												</div>
 											</div>
 										</div>
-									</div>
-								</div>
-							</div>
-							<div className="position-absolute d-none d-md-block decorate">
-								<div className="rotateme">
-									<div className="circle-1-1" />
-									<div className="circle-1-2 position-absolute top-50 start-50 translate-middle">
-										<svg className="mb-5 position-absolute bottom-0 start-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 9 9" fill="none">
-											<circle cx="4.5" cy="4.5" r="4.5" fill="#636366" />
-										</svg>
-									</div>
-									<div className="circle-1-3 position-absolute top-50 start-50 translate-middle ">
-										<svg className="mb-3 position-absolute bottom-0 end-0" xmlns="http://www.w3.org/2000/svg" width={9} height={9} viewBox="0 0 9 9" fill="none">
-											<circle cx="4.5" cy="4.5" r="4.5" fill="#636366" />
-										</svg>
+
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
-				<br/>
-				<br/>
 			</section>
+
 
 		</>
 	)

@@ -42,41 +42,42 @@ export default function Home2() {
 										<p className="mb-6 text-secondary-2">&lt;p&gt;<span className="text-dark">With expertise in cutting-edge technologies such as</span> <span className="text-secondary-2">Java</span>, <span className="text-secondary-2">React</span>, <span className="text-secondary-2">HTML</span>, <span className="text-secondary-2">Python</span>, <span className="text-secondary-2">Js,..etc.</span><span className="text-dark"> I deliver web solutions that are both innovative and robust.</span>&lt;/p&gt;</p>
 										<div className="row">
 											<div className="col-7">
-												{/* Carausel Scroll */}
+												{/* ✅ Carousel Scroll with Fixed Image Sizes */}
 												<Marquee className="carouselTicker carouselTicker-left position-relative z-1 mt-lg-0 mt-8">
-													<ul className="carouselTicker__list ">
-														<li className="carouselTicker__item">
-															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-1.svg" alt="brand" />
-															</Link>
-														</li>
-														<li className="carouselTicker__item">
-															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-2.svg" alt="brand" />
-															</Link>
-														</li>
-														<li className="carouselTicker__item">
-															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-3.svg" alt="brand" />
-															</Link>
-														</li>
-														<li className="carouselTicker__item">
-															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-4.svg" alt="brand" />
-															</Link>
-														</li>
-														<li className="carouselTicker__item">
-															<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
-																<img src="assets/imgs/home-page-2/hero-1/icon-5.svg" alt="brand" />
-															</Link>
-														</li>
+													<ul className="carouselTicker__list">
+														{[
+															{ src: "bootstrap.png", name: "Bootstrap" },
+															{ src: "css.png", name: "CSS" },
+															{ src: "firebase.png", name: "Firebase" },
+															{ src: "html.png", name: "HTML" },
+															{ src: "js.png", name: "JavaScript" },
+															{ src: "mongodb.png", name: "MongoDB" },
+															{ src: "mysql.png", name: "MySQL" },
+															{ src: "nodejs.png", name: "Node.js" },
+															{ src: "php.png", name: "PHP" },
+															{ src: "python.png", name: "Python" },
+															{ src: "react.png", name: "React" },
+															{ src: "visual-basic.png", name: "Visual Basic" }
+														].map((tech, index) => (
+															<li key={index} className="carouselTicker__item">
+																<Link href="#" className="brand-logo icon_60 icon-shape rounded-3">
+																	<img
+																		src={`assets/imgs/home-page-2/programming/${tech.src}`}
+																		alt={tech.name}
+																		style={{ width: "50px", height: "50px", objectFit: "contain" }}
+																	/>
+																</Link>
+															</li>
+														))}
 													</ul>
 												</Marquee>
 											</div>
+
 											<div className="col-5 d-flex align-items-end">
 												<span className="fs-6 text-300 mb-2">...and more</span>
 											</div>
 										</div>
+
 										<Link href="assets/resume.pdf" className="btn me-2 text-300 ps-0 mt-4" target="_blank">
 											<i className="ri-download-line text-primary-2" />
 											[ Download my CV ]
