@@ -25,22 +25,22 @@ export default function MobileMenu({ isMobileMenu, handleMobileMenu }: any) {
 								<nav>
 									<ul className="mobile-menu font-heading ps-0">
 										<li className="nav-item">
-											<Link className="nav-link active" href="/">Home</Link>
+											<Link className="nav-link active" href="#about">About me</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/services">Services</Link>
+											<Link className="nav-link" href="#resume">Resume</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/work">Portfolio</Link>
+											<Link className="nav-link" href="#services">Services</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/pricing">Pricing</Link>
+											<Link className="nav-link" href="#projects">Projects</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/blog-list">Blog</Link>
+											<Link className="nav-link" href="#experience">Experience</Link>
 										</li>
 										<li className="nav-item">
-											<Link className="nav-link" href="/#contact">Contact</Link>
+											<Link className="nav-link" href="#contact">Contact</Link>
 										</li>
 									</ul>
 								</nav>
