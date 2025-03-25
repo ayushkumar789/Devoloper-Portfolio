@@ -28,8 +28,8 @@ export default function Footer2() {
 								<a href="#about" className="fs-6"> About me </a>
 								<a href="#resume" className="fs-6"> Resume </a>
 								<a href="#services" className="fs-6"> Services </a>
-								<a href="#portfolio" className="fs-6"> Portfolio </a>
-								<a href="#blog" className="fs-6"> Blog </a>
+								<a href="#projects" className="fs-6"> Projects </a>
+								<a href="#experience" className="fs-6"> Experience </a>
 								<a href="#contact" className="fs-6"> Contact </a>
 							</div>
 						</div>
