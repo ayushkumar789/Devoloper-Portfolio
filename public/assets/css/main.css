@@ -1009,6 +1009,14 @@ img {
   gap: 8px;
 }
 
+.project-image {
+  width: 100%;
+  height: 300px;
+  object-fit: contain;
+  object-position: center;
+  border-radius: 12px;
+}
+
 .zelio .btn-filter {
   --bs-btn-padding-x: 17px;
   --bs-btn-padding-y: 14px;
