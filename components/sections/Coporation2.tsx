@@ -60,7 +60,7 @@ export default function Coporation2() {
 												</div>
 											</div>
 											<div className="d-flex flex-column gap-2">
-												<Link href="https://linkedin.com/in/ayush.dev">
+												<Link href="https://www.linkedin.com/in/ayush-kumar-panigrahi-43a152289/">
 													<i className="ri-linkedin-box-fill"/>
 													<span className="text-300">[LinkedIn] <span className="text-secondary-2">Ayush Kumar Panigrahi</span></span>
 												</Link>
@@ -68,7 +68,7 @@ export default function Coporation2() {
 													<i className="ri-phone-fill"/>
 													<span className="text-300">[phone] <span className="text-secondary-2">+91 7815929654</span></span>
 												</Link>
-												<Link href="mailto:contact@Ayush.dev">
+												<Link href="mailto:ayushkumarpanigrahi@gmail.com">
 													<i className="ri-mail-fill"/>
 													<span className="text-300">[email] <span className="text-secondary-2">ayushkumarpanigrahi@gmail.com</span></span>
 												</Link>
@@ -80,10 +80,10 @@ export default function Coporation2() {
 						</div>
 
 						{/* Right Side - Gaming & Esports Journey */}
-						<div className="col-lg-4 h-100 pt-lg-0 pt-5">
-							<div className="rounded-3 border border-1 position-relative overflow-hidden h-100">
-								<div className="box-linear-animation"> {/* Animation added here */}
-									<div className="bg-3 p-md-6 p-3 position-relative h-100">
+						<div className="col-lg-4 pt-lg-0 pt-5" style={{ height: "520px" }}>
+							<div className="rounded-3 border border-1 position-relative overflow-hidden h-100" style={{ height: "100%" }}>
+							<div className="box-linear-animation" style={{ height: "100%" }}> {/* Animation added here */}
+									<div className="bg-3 p-md-6 p-3 position-relative h-100" style={{ height: "100%" }}>
 										<div className="d-flex align-items-center">
 											<svg className="text-primary-2 me-2" xmlns="http://www.w3.org/2000/svg" width={5} height={6} viewBox="0 0 5 6" fill="none">
 												<circle cx="2.5" cy={3} r="2.5" fill="#A8FF53"/>
@@ -115,7 +115,7 @@ export default function Coporation2() {
 											</ul>
 										</div>
 
-										<div className="bg-overlay position-absolute bottom-0 start-0 z-1"/>
+
 									</div>
 								</div>
 							</div>

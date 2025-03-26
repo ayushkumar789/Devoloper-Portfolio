@@ -65,7 +65,7 @@ export default function Education2() {
 										</div>
 										<div
 											style={{
-												height: "250px",
+												height: "290px",
 												overflowY: "auto",
 												paddingRight: "10px",
 												marginTop: "10px"
