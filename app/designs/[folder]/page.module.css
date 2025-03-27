@@ -1,0 +1,50 @@
+.container {
+    padding: 2rem;
+    background-color: #121212;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.h1 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon {
+    font-size: 2rem;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background-color: #1e1e1e;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.media {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.fileName {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #ccc;
+}
