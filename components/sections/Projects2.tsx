@@ -152,7 +152,7 @@ const allProjects =
 			technologies: 'Adobe Illustrator, Figma',
 			status: 'Completed',
 			live: null,
-			designPage: '/designs/logo-animations'
+			designPage: '/designs/logos'
 
 		},
 		{
@@ -178,7 +178,7 @@ const allProjects =
 			technologies: 'Photoshop, Illustrator',
 			status: 'Completed',
 			live: null,
-			designPage: '/designs/logo-animations'
+			designPage: '/designs/event-posters'
 
 		},
 		{
@@ -191,7 +191,7 @@ const allProjects =
 			technologies: 'After Effects',
 			status: 'Completed',
 			live: null,
-			designPage: '/designs/logo-animations'
+			designPage: '/designs/event-promos'
 
 		}
 
