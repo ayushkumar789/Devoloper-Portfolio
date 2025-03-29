@@ -100,7 +100,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">LinkedIn</span>
 									<h6 className="mb-0">Ayush Kumar Panigrahi</h6>
 								</div>
-								<a href="https://linkedin.com/in/your-link" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://www.linkedin.com/in/ayush-kumar-panigrahi-43a152289/" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 
 							<div className="d-flex align-items-center mb-3 position-relative d-inline-flex">
@@ -113,7 +113,7 @@ export default function Contact2() {
 									<span className="text-400 fs-6">Address</span>
 									<h6 className="mb-0">Sai Sri Enclave, Narapally, Hyderabad, Telangana</h6>
 								</div>
-								<a href="https://maps.google.com/maps?q=Sai+Sri+Enclave+Narapally" className="position-absolute top-0 start-0 w-100 h-100" />
+								<a href="https://maps.app.goo.gl/tLGxMf17W7kGVi8L8" className="position-absolute top-0 start-0 w-100 h-100" />
 							</div>
 						</div>
 					</div>

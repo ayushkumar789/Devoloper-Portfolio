@@ -132,7 +132,7 @@ const allProjects =
 		{
 			title: 'Vehicle Parking System',
 			description: 'Desktop parking app using Python and MySQL...',
-			image: 'assets/imgs/home-page-2/projects/vehicle-parking-system.png',
+			image: 'assets/imgs/home-page-2/projects/vps.png',
 			github: 'https://github.com/ayushkumar789/vehicle-parking-system',
 			apk: null,
 			category: 'App Development',
@@ -145,7 +145,7 @@ const allProjects =
 		{
 			title: 'Logo Designs',
 			description: 'Custom logos designed using Adobe Illustrator...',
-			image: 'assets/imgs/home-page-2/projects/logo-designs.png',
+			image: 'assets/imgs/home-page-2/projects/logos.png',
 			github: null,
 			apk: null,
 			category: 'Graphic Design',
@@ -158,7 +158,7 @@ const allProjects =
 		{
 			title: 'Logo Animations',
 			description: 'Animated intros created using After Effects...',
-			image: 'assets/imgs/home-page-2/projects/logo-animations.png',
+			image: 'assets/imgs/home-page-2/projects/logo-animation.png',
 			github: null,
 			apk: null,
 			category: 'Graphic Design',
@@ -184,7 +184,7 @@ const allProjects =
 		{
 			title: 'Promo Videos',
 			description: 'Promo videos built in After Effects...',
-			image: 'assets/imgs/home-page-2/projects/promo-videos.png',
+			image: 'assets/imgs/home-page-2/projects/event-promos.png',
 			github: null,
 			apk: null,
 			category: 'Graphic Design',
