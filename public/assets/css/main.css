@@ -970,7 +970,7 @@ img {
   stroke: #be6895;
 }
 
-.zelio .btn {
+.Ayush .btn {
   --bs-btn-padding-x: 24px;
   --bs-btn-padding-y: 17px;
   --bs-btn-font-family: var(--urbanist)
@@ -1017,7 +1017,7 @@ img {
   border-radius: 12px;
 }
 
-.zelio .btn-filter {
+.Ayush .btn-filter {
   --bs-btn-padding-x: 17px;
   --bs-btn-padding-y: 14px;
   --bs-btn-font-size: 16px;
@@ -1037,18 +1037,18 @@ img {
   border-radius: 12px !important;
   border: 0 !important;
 }
-.zelio .btn-filter.active {
+.Ayush .btn-filter.active {
   color: var(--bs-btn-active-color);
   background: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
-.zelio .btn-filter:hover {
+.Ayush .btn-filter:hover {
   color: var(--bs-btn-active-color);
   background: var(--bs-btn-active-bg);
   border-color: var(--bs-btn-active-border-color);
 }
 
-.zelio .btn-gradient {
+.Ayush .btn-gradient {
   --bs-btn-color: #ffffff;
   --bs-btn-bg: linear-gradient(90deg, #6d4df2 0%, #8c71ff 100%);;
   --bs-btn-border-color: none;
@@ -1065,7 +1065,7 @@ img {
   --bs-btn-disabled-border-color: #6e4ef2;
 }
 
-.zelio .btn-primary {
+.Ayush .btn-primary {
   --bs-btn-color: #ffffff;
   --bs-btn-bg: #6e4ef2;
   --bs-btn-border-color: none;
@@ -1116,7 +1116,7 @@ img {
   --bs-btn-disabled-border-color: #b2a4ab;
 }
 
-.zelio .btn-outline-secondary {
+.Ayush .btn-outline-secondary {
   
   --bs-btn-bg: #ffffff;
   --bs-btn-border-color: #6e4ef2;
@@ -1147,7 +1147,7 @@ img {
   --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-.zelio .avatar {
+.Ayush .avatar {
   position: relative;
   display: inline-block;
   width: 3rem;
@@ -1934,7 +1934,7 @@ textarea {
   color: var(--tc-neutral-900) !important;
 }
 
-.zelio .text-white {
+.Ayush .text-white {
   color: var(--tc-neutral-1000) !important;
 }
 
@@ -1942,11 +1942,11 @@ textarea {
   color: #ffffff !important;
 }
 
-.zelio .text-dark {
+.Ayush .text-dark {
   color: var(--tc-neutral-0) !important;
 }
 
-.zelio .text-primary {
+.Ayush .text-primary {
   color: var(--tc-theme-primary-1) !important;
 }
 
@@ -2059,11 +2059,11 @@ textarea {
   background-color: var(--tc-system-info) !important;
 }
 
-.zelio .bg-white {
+.Ayush .bg-white {
   background-color: var(--tc-neutral-1000) !important;
 }
 
-.zelio .bg-white-keep {
+.Ayush .bg-white-keep {
   background-color: #ffffff !important;
 }
 
