@@ -44,16 +44,16 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu,isOffCa
 								</div>
 								<div className="navbar-social d-flex align-items-center pe-5 pe-lg-0 me-5 me-lg-0">
 									<div className="d-md-flex d-none gap-3">
-										<Link href="/https://www.facebook.com/profile.php?id=100057852093100">
+										<Link href="https://www.facebook.com/profile.php?id=100057852093100">
 											<i className="ri-facebook-circle-fill fs-18" />
 										</Link>
-										<Link href="/https://x.com/AyushKumar28970">
+										<Link href="https://x.com/AyushKumar28970">
 											<i className="ri-twitter-x-fill fs-18" />
 										</Link>
-										<Link href="/https://www.linkedin.com/in/ayush-kumar-panigrahi-43a152289/">
+										<Link href="https://www.linkedin.com/in/ayush-kumar-panigrahi-43a152289/">
 											<i className="ri-linkedin-box-fill fs-18" />
 										</Link>
-										<Link href="/https://github.com/ayushkumar789">
+										<Link href="https://github.com/ayushkumar789">
 											<i className="ri-github-fill fs-18" />
 										</Link>
 									</div>
