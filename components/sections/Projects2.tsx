@@ -193,11 +193,24 @@ const allProjects =
 			live: null,
 			designPage: '/designs/event-promos'
 
-		}
+		},
+		{
+		title: 'AI Video Summarizer',
+		description: 'Flask web app that summarizes long videos using Whisper (GPU), Cohere AI, OpenCV, and MongoDB. Includes transcript, keyframes, export to PDF/Word, lottie animations, waveform visualizer, and more.',
+		image: 'assets/imgs/home-page-2/projects/video-summarizer.png',
+		github: 'https://github.com/ayushkumar789/video_summarizer',
+		apk: null,
+		category: 'Web Development',
+		technologies: 'Python, Flask, Whisper, Cohere AI, OpenCV, MongoDB, Tailwind CSS, JS',
+		status: 'Completed',
+		live: null,
+		designPage: null
+	}
 
 
 
-]
+
+	]
 
 export default function Projects2() {
 	const [category, setCategory] = useState('All')
