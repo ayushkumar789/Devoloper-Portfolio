@@ -51,7 +51,7 @@ export default function Home2() {
 															{ src: "firebase.png", name: "Firebase" },
 															{ src: "html.png", name: "HTML" },
 															{ src: "js.png", name: "JavaScript" },
-															{ src: "mongodb.png", name: "MongoDB" },
+															{ src: "MongoDB.png", name: "MongoDB" },
 															{ src: "mysql.png", name: "MySQL" },
 															{ src: "nodejs.png", name: "Node.js" },
 															{ src: "php.png", name: "PHP" },

@@ -56,7 +56,7 @@ export default function Skills2() {
 																{ src: "java.png", name: "Java" },
 																{ src: "mysql.png", name: "MySQL" },
 																{ src: "nodejs.png", name: "Node.js" },
-																{ src: "mongodb.png", name: "MongoDB" },
+																{ src: "MongoDB.png", name: "MongoDB" },
 																{ src: "firebase.png", name: "Firebase" },
 																{ src: "visual-basic.png", name: "Visual Studio" }
 															].map((tech, index) => (
