@@ -205,7 +205,19 @@ const allProjects =
 		status: 'Completed',
 		live: null,
 		designPage: null
+	},{
+		title: 'AnuragEdge – Custom LMS',
+		description: 'Built a full-featured Learning Management System with Laravel backend and MySQL database, supporting user authentication, course management, quizzes, certificates, analytics, and secure payments.',
+		image: 'assets/imgs/home-page-2/projects/AnuragEdge.png',
+		github: 'https://github.com/ayushkumar789/AnuragEdge',
+		apk: null,
+		category: 'Web Development',
+		technologies: 'Laravel, PHP, MySQL, Blade, HTML, CSS, Bootstrap',
+		status: 'Ongoing',
+		live: 'https://anuragedge.world/',
+		designPage: null
 	}
+
 
 
 
