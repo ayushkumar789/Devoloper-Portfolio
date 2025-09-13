@@ -79,7 +79,7 @@ export default function Home2() {
 										</div>
 
 										<Link
-											href="/Ayush-Resume.pdf"
+											href="/Ayush-Kumar.pdf"
 											className="btn me-2 text-300 ps-0 mt-4"
 											target="_blank"
 										>
