@@ -15,7 +15,7 @@
     "@vercel/speed-insights": "^1.2.0",
     "axios": "^1.8.4",
     "dotenv": "^16.4.7",
-    "firebase": "^11.5.0",
+    "firebase": "^11.10.0",
     "gsap": "^3.12.5",
     "isotope-layout": "^3.0.6",
     "mysql2": "^3.14.0",
