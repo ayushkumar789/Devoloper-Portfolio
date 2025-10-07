@@ -1,4 +1,8 @@
 // next.config.mjs
+import { createRequire } from 'module';
+const require = createRequire(import.meta.url);
+const WebpackObfuscator = require('webpack-obfuscator');
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
     env: {
@@ -10,11 +14,10 @@ const nextConfig = {
         remotePatterns: [
             { protocol: 'https', hostname: '**.supabase.co', pathname: '/storage/v1/object/public/**' },
         ],
-        // unoptimized: true, // (enable only if needed)
+        // unoptimized: true, // toggle only if needed
     },
-    webpack: async (config, { dev, isServer }) => {
+    webpack(config, { dev, isServer }) {
         if (!dev && !isServer) {
-            const { default: WebpackObfuscator } = await import('webpack-obfuscator');
             config.plugins.push(
                 new WebpackObfuscator(
                     { rotateStringArray: true, stringArray: true, stringArrayThreshold: 0.75 },
