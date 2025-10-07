@@ -1,60 +1,46 @@
 'use client';
+
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import styles from './page.module.css';
 
-// Define types
-interface FileType {
-    name: string;
-    url: string;
-}
+type FileItem = { name: string; url: string };
 
 export default function DesignsPage({ params }: { params: { folder: string } }) {
-    const [files, setFiles] = useState<FileType[]>([]);
-    const folder = params.folder;
+    const folder = decodeURIComponent(params.folder);
+    const [files, setFiles] = useState<FileItem[]>([]);
+    const [loading, setLoading] = useState(true);
 
     useEffect(() => {
-        async function fetchFiles() {
-            const response = await fetch(`/api/upload/list?folder=${folder}`);
-            const data = await response.json();
-            if (data.files) {
-                const urls = data.files.map((file: any) => ({
-                    name: file.name,
-                    url: `${process.env.NEXT_PUBLIC_SUPABASE_URL}/storage/v1/object/public/portfolio-media/${folder}/${file.name}`,
-                }));
-
-                setFiles(urls);
+        (async () => {
+            try {
+                const res = await fetch(`/api/upload/list?folder=${encodeURIComponent(folder)}`, { cache: 'no-store' });
+                const json = await res.json();
+                setFiles(json?.files ?? []);
+            } finally {
+                setLoading(false);
             }
-        }
-        fetchFiles();
+        })();
     }, [folder]);
 
+    if (loading) return <main className={styles.container}><h1 className={styles.h1}>🔥 {folder} Files</h1><p>Loading…</p></main>;
+
     return (
-        <div className={styles.container}>
-            <h1>
-                <span className={styles.icon}>🔥</span> {folder} Files
-            </h1>
+        <main className={styles.container}>
+            <h1 className={styles.h1}>🔥 {folder} Files</h1>
             <div className={styles.grid}>
                 {files.map((file) => (
-                    <div key={file.name} className={styles.card}>
-                        {file.url.endsWith('.mp4') ? (
-                            <video controls className={styles.media}>
-                                <source src={file.url} type="video/mp4" />
-                                Your browser does not support the video tag.
-                            </video>
+                    <div key={file.url} className={styles.card}>
+                        {/\.(mp4|webm|ogg)$/i.test(file.name) ? (
+                            <video controls className={styles.media} src={file.url} />
                         ) : (
-                            <Image
-                                src={file.url}
-                                alt={file.name}
-                                width={300}
-                                height={200}
-                                className={styles.media}
-                            />
+                            <Image src={file.url} alt={file.name} width={900} height={600} className={styles.media} />
                         )}
                         <p className={styles.fileName}>{file.name}</p>
                     </div>
                 ))}
+                {files.length === 0 && <p>No files found.</p>}
             </div>
-        </div>
+        </main>
     );
 }
