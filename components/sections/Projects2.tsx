@@ -213,10 +213,21 @@ const allProjects =
 		apk: null,
 		category: 'Web Development',
 		technologies: 'Laravel, PHP, MySQL, Blade, HTML, CSS, Bootstrap',
-		status: 'Ongoing',
+		status: 'Completed',
 		live: 'https://anuragedge.world/',
 		designPage: null
-	}
+	},{
+        title: 'AetherAI – Multimodal AI Platform',
+        description: 'Developed a full-stack AI platform integrating OpenAI APIs to provide chat assistants, document analysis, image generation, speech processing, and code generation. Includes secure authentication, usage tracking, and an admin dashboard for subscription-based access management.',
+        image: 'assets/imgs/home-page-2/projects/AetherAI.png',
+        github: 'https://github.com/ayushkumar789/AetherAI',
+        apk: null,
+        category: 'AI / Web Development',
+        technologies: 'Laravel, PHP, OpenAI API, MySQL, Blade, JavaScript, HTML, CSS',
+        status: 'Ongoing',
+        live: 'https://aetherai.work/',
+        designPage: null
+    }
 
 
 
