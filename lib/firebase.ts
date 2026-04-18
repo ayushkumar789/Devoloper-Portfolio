@@ -1,17 +1,14 @@
 // lib/firebase.ts
-
 import { initializeApp, getApps } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
 
-// ✅ Your corrected Firebase config
 const firebaseConfig = {
-    apiKey: "AIzaSyCFn-DO9xmI73JtH5v_vmH3ugUryjX2FvE",
-    authDomain: "ayush-portfolio-ff70d.firebaseapp.com",
-    projectId: "ayush-portfolio-ff70d",
-    storageBucket: "ayush-portfolio-ff70d.appspot.com",  // fixed this line
-    messagingSenderId: "1065759863536",
-    appId: "1:1065759863536:web:c7b15950d54ed5d0cb8835",
-    measurementId: "G-5KZZ83NSSG" // safe to keep, not required
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY,
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN,
+    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID,
+    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID,
+    appId: process.env.NEXT_PUBLIC_FIREBASE_APP_ID,
 };
 
 // ✅ Prevent re-initialization during hot reload

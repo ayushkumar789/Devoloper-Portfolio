@@ -142,6 +142,18 @@ const allProjects =
 			designPage: null
 
 		},
+        {
+            title: 'SpendBook – Personal Finance Tracker',
+            description: 'Built a full-stack mobile finance tracking app using React Native and Supabase, featuring expense logging, category-wise analytics with interactive charts, and Google Sign-In authentication. Designed for daily personal budgeting with a clean, responsive UI and continuously evolving feature set.',
+            image: 'assets/imgs/home-page-2/projects/SpendBook.jpg',
+            github: 'https://github.com/ayushkumar789/SpendBook',
+            apk: null,
+            category: 'App Development',
+            technologies: 'React Native, Expo SDK 54, Supabase, NativeWind, Victory Native, JavaScript',
+            status: 'Ongoing',
+            live: null,
+            designPage: null
+        },
 		{
 			title: 'Logo Designs',
 			description: 'Custom logos designed using Adobe Illustrator...',

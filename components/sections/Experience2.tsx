@@ -21,11 +21,11 @@ export default function Experience2() {
 								{/* Experience Cards */}
 								<div className="col-lg-5 d-flex flex-column gap-3">
 									{[
-										{ title: "Chief Editor", company: "Noobsverse Pvt. Ltd.", period: "Aug 2022 – Present", img: "noobsverse.png" },
-										{ title: "Front-End Developer", company: "CoffeeCodes", period: "Oct 2023 – Present", img: "cc.png" },
+										{ title: "Chief Editor", company: "Noobsverse Pvt. Ltd.", period: "Aug 2022 – Oct 2024", img: "noobsverse.png" },
+										{ title: "Front-End Developer", company: "CoffeeCodes", period: "Oct 2023 – Oct 2024", img: "cc.png" },
 										{ title: "Co-Founder", company: "Noobs E-sports", period: "Oct 2023 – Dec 2024", img: "NoobsEsports.png" },
 										{ title: "Co-Founder", company: "Learn-X", period: "May 2024 – Present", img: "learnx.png" },
-										{ title: "Full Stack Developer", company: "Learn-X", period: "May 2024 – Present", img: "learnx.png" },
+										{ title: "Full Stack Developer", company: "Learn-X", period: "May 2024 – Feb 2026", img: "learnx.png" },
 									].map((exp, index) => (
 										<Link key={index} href="#" className="technology border border-1 rounded-3 p-3 d-flex align-items-center gap-3">
 											<img
